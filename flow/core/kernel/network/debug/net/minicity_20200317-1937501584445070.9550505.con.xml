@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+  <connection from="e_13" to="e_14" fromLane="0" toLane="0"/>
+  <connection from="e_13" to="e_14" fromLane="1" toLane="0"/>
+  <connection from="e_42" to="e_44" fromLane="0" toLane="0"/>
+  <connection from="e_42" to="e_44" fromLane="1" toLane="0"/>
+  <connection from="e_60" to="e_69" fromLane="0" toLane="0"/>
+  <connection from="e_60" to="e_69" fromLane="1" toLane="0"/>
+  <connection from="e_66" to="e_91" fromLane="0" toLane="0"/>
+  <connection from="e_66" to="e_91" fromLane="1" toLane="1"/>
+  <connection from="e_66" to="e_63" fromLane="0" toLane="0"/>
+  <connection from="e_66" to="e_63" fromLane="1" toLane="1"/>
+  <connection from="e_7" to="e_17" fromLane="0" toLane="0"/>
+  <connection from="e_7" to="e_17" fromLane="1" toLane="1"/>
+  <connection from="e_7" to="e_8_b" fromLane="0" toLane="0"/>
+  <connection from="e_7" to="e_8_b" fromLane="1" toLane="1"/>
+  <connection from="e_9" to="e_10" fromLane="0" toLane="0"/>
+  <connection from="e_9" to="e_10" fromLane="1" toLane="1"/>
+  <connection from="e_9" to="e_92" fromLane="0" toLane="0"/>
+  <connection from="e_9" to="e_92" fromLane="1" toLane="1"/>
+  <connection from="e_68" to="e_66" fromLane="0" toLane="0"/>
+  <connection from="e_37" to="e_29_u" fromLane="0" toLane="0"/>
+  <connection from="e_37" to="e_29_u" fromLane="1" toLane="1"/>
+  <connection from="e_51" to="e_29_u" fromLane="0" toLane="0"/>
+  <connection from="e_51" to="e_29_u" fromLane="1" toLane="1"/>
+  <connection from="e_94" to="e_52" fromLane="0" toLane="0"/>
+  <connection from="e_94" to="e_52" fromLane="1" toLane="1"/>
+  <connection from="e_94" to="e_51" fromLane="0" toLane="0"/>
+  <connection from="e_94" to="e_51" fromLane="1" toLane="1"/>
+  <connection from="e_36" to="e_93" fromLane="0" toLane="0"/>
+  <connection from="e_36" to="e_93" fromLane="1" toLane="1"/>
+</connections>

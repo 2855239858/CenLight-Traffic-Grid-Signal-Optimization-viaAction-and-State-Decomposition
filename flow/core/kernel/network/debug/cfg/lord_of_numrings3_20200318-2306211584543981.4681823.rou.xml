@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+  <route id="routetop_0_0" edges="top_0 left_0 bottom_0 right_0"/>
+  <route id="routeleft_0_0" edges="left_0 bottom_0 right_0 top_0"/>
+  <route id="routebottom_0_0" edges="bottom_0 right_0 top_0 left_0"/>
+  <route id="routeright_0_0" edges="right_0 top_0 left_0 bottom_0"/>
+  <route id="routetop_1_0" edges="top_1 left_1 bottom_1 right_1"/>
+  <route id="routeleft_1_0" edges="left_1 bottom_1 right_1 top_1"/>
+  <route id="routebottom_1_0" edges="bottom_1 right_1 top_1 left_1"/>
+  <route id="routeright_1_0" edges="right_1 top_1 left_1 bottom_1"/>
+  <route id="routetop_2_0" edges="top_2 left_2 bottom_2 right_2"/>
+  <route id="routeleft_2_0" edges="left_2 bottom_2 right_2 top_2"/>
+  <route id="routebottom_2_0" edges="bottom_2 right_2 top_2 left_2"/>
+  <route id="routeright_2_0" edges="right_2 top_2 left_2 bottom_2"/>
+</routes>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+  <route id="routebot0_0_0" edges="bot0_0 bot0_1 bot0_2"/>
+  <route id="routetop0_2_0" edges="top0_2 top0_1 top0_0"/>
+  <route id="routebot1_0_0" edges="bot1_0 bot1_1 bot1_2"/>
+  <route id="routetop1_2_0" edges="top1_2 top1_1 top1_0"/>
+  <route id="routeleft2_0_0" edges="left2_0 left1_0 left0_0"/>
+  <route id="routeright0_0_0" edges="right0_0 right1_0 right2_0"/>
+  <route id="routeleft2_1_0" edges="left2_1 left1_1 left0_1"/>
+  <route id="routeright0_1_0" edges="right0_1 right1_1 right2_1"/>
+  <flow id="flow_00" route="routeleft2_0_0" type="human" departLane="free" departSpeed="30" begin="1" end="86400" vehsPerHour="600.0"/>
+  <flow id="flow_10" route="routeleft2_1_0" type="human" departLane="free" departSpeed="30" begin="1" end="86400" vehsPerHour="600.0"/>
+  <flow id="flow_20" route="routeright0_0_0" type="human" departLane="free" departSpeed="30" begin="1" end="86400" vehsPerHour="600.0"/>
+  <flow id="flow_30" route="routeright0_1_0" type="human" departLane="free" departSpeed="30" begin="1" end="86400" vehsPerHour="600.0"/>
+  <flow id="flow_40" route="routebot0_0_0" type="human" departLane="free" departSpeed="30" begin="1" end="86400" vehsPerHour="600.0"/>
+  <flow id="flow_50" route="routebot1_0_0" type="human" departLane="free" departSpeed="30" begin="1" end="86400" vehsPerHour="600.0"/>
+  <flow id="flow_60" route="routetop0_2_0" type="human" departLane="free" departSpeed="30" begin="1" end="86400" vehsPerHour="600.0"/>
+  <flow id="flow_70" route="routetop1_2_0" type="human" departLane="free" departSpeed="30" begin="1" end="86400" vehsPerHour="600.0"/>
+</routes>

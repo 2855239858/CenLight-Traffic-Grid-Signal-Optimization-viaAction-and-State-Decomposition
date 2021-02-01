@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+  <route id="routeedge0_0" edges="edge0 edge1 edge2 edge3"/>
+  <route id="routeedge1_0" edges="edge1 edge2 edge3 edge0"/>
+  <route id="routeedge2_0" edges="edge2 edge3 edge0 edge1"/>
+  <route id="routeedge3_0" edges="edge3 edge0 edge1 edge2"/>
+  <route id="routehuman_0" edges="edge3 edge0 edge1 edge2"/>
+</routes>

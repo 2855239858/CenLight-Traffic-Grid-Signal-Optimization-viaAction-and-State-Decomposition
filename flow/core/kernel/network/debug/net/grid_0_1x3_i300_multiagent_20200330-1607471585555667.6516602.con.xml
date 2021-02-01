@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+  <connection from="bot0_0" to="bot0_1" fromLane="0" toLane="0"/>
+  <connection from="top0_1" to="top0_0" fromLane="0" toLane="0"/>
+  <connection from="right0_0" to="right1_0" fromLane="0" toLane="0"/>
+  <connection from="left1_0" to="left0_0" fromLane="0" toLane="0"/>
+  <connection from="bot0_1" to="bot0_2" fromLane="0" toLane="0"/>
+  <connection from="top0_2" to="top0_1" fromLane="0" toLane="0"/>
+  <connection from="right0_1" to="right1_1" fromLane="0" toLane="0"/>
+  <connection from="left1_1" to="left0_1" fromLane="0" toLane="0"/>
+  <connection from="bot0_2" to="bot0_3" fromLane="0" toLane="0"/>
+  <connection from="top0_3" to="top0_2" fromLane="0" toLane="0"/>
+  <connection from="right0_2" to="right1_2" fromLane="0" toLane="0"/>
+  <connection from="left1_2" to="left0_2" fromLane="0" toLane="0"/>
+</connections>

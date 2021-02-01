@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+  <node id="n_i1" x="26.0" y="110.0"/>
+  <node id="n_i2" x="26.0" y="196.0"/>
+  <node id="n_i3" x="122.0" y="110.0" type="traffic_light"/>
+  <node id="n_i4" x="122.0" y="196.0" type="traffic_light"/>
+  <node id="n_i5" x="122.0" y="230.0"/>
+  <node id="n_i6" x="203.2" y="110.0"/>
+  <node id="n_i7" x="203.2" y="150.0"/>
+  <node id="n_i8" x="203.2" y="196.0"/>
+  <node id="n_i9" x="203.2" y="230.0"/>
+  <node id="n_r1" x="12.0" y="46.0"/>
+  <node id="n_r2" x="36.0" y="16.0"/>
+  <node id="n_r3" x="38.0" y="58.0"/>
+  <node id="n_r4" x="52.0" y="45.199999999999996"/>
+  <node id="n_r4_tmp" x="56.04883971925112" y="25.13895265139957"/>
+  <node id="n_r5" x="182.0" y="46.0"/>
+  <node id="n_r6" x="194.0" y="64.0"/>
+  <node id="n_r7" x="204.0" y="25.6"/>
+  <node id="n_r8" x="214.0" y="64.0"/>
+  <node id="n_b1" x="26.0" y="148.0"/>
+  <node id="n_b2" x="26.0" y="168.0"/>
+  <node id="n_b3" x="122.0" y="150.0"/>
+  <node id="n_b4" x="122.0" y="168.0"/>
+  <node id="n_b5" x="164.0" y="110.0"/>
+  <node id="n_b6" x="182.0" y="110.0"/>
+  <node id="n_m1_u" x="73.2" y="16.0"/>
+  <node id="n_m1_b" x="73.2" y="16.0"/>
+  <node id="n_m2" x="78.4" y="110.0"/>
+  <node id="n_m3" x="87.2" y="196.0"/>
+  <node id="n_m4" x="100.0" y="16.0"/>
+  <node id="n_m5" x="168.0" y="196.0"/>
+  <node id="n_s1" x="26.0" y="72.0"/>
+  <node id="n_s2" x="54.0" y="162.8"/>
+  <node id="n_s3" x="66.8" y="180.79999999999998"/>
+  <node id="n_s4" x="93.6" y="45.599999999999994"/>
+  <node id="n_s5" x="93.6" y="79.2"/>
+  <node id="n_s6" x="122.0" y="46.0"/>
+  <node id="n_s7_l" x="140.39999999999998" y="16.0"/>
+  <node id="n_s7_r" x="158.0" y="16.0"/>
+  <node id="n_s8" x="168.0" y="172.0"/>
+  <node id="n_s9" x="203.2" y="88.80000000000001"/>
+  <node id="n_s10" x="225.2" y="172.0"/>
+  <node id="n_s11" x="225.2" y="208.4"/>
+  <node id="n_s12" x="26.0" y="210.0"/>
+  <node id="n_s13" x="48.0" y="230.0"/>
+  <node id="n_s14" x="190.0" y="150.0"/>
+</nodes>

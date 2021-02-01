@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+  <input>
+    <node-files value="minicity_20200317-1937501584445070.9550505.nod.xml"/>
+    <edge-files value="minicity_20200317-1937501584445070.9550505.edg.xml"/>
+    <type-files value="minicity_20200317-1937501584445070.9550505.typ.xml"/>
+    <connection-files value="minicity_20200317-1937501584445070.9550505.con.xml"/>
+  </input>
+  <output>
+    <output-file value="minicity_20200317-1937501584445070.9550505.net.xml"/>
+  </output>
+  <processing>
+    <no-internal-links value="false"/>
+    <no-turnarounds value="true"/>
+  </processing>
+</configuration>

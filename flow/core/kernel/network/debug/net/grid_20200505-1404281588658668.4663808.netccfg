@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+  <input>
+    <node-files value="grid_20200505-1404281588658668.4663808.nod.xml"/>
+    <edge-files value="grid_20200505-1404281588658668.4663808.edg.xml"/>
+    <type-files value="grid_20200505-1404281588658668.4663808.typ.xml"/>
+    <connection-files value="grid_20200505-1404281588658668.4663808.con.xml"/>
+  </input>
+  <output>
+    <output-file value="grid_20200505-1404281588658668.4663808.net.xml"/>
+  </output>
+  <processing>
+    <no-internal-links value="false"/>
+    <no-turnarounds value="true"/>
+  </processing>
+</configuration>

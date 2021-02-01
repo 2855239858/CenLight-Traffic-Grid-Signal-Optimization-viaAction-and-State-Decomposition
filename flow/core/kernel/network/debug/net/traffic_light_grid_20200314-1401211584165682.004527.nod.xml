@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+  <node id="center0" x="0" y="0" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center1" x="300" y="0" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center2" x="600" y="0" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center3" x="900" y="0" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center4" x="0" y="300" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center5" x="300" y="300" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center6" x="600" y="300" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center7" x="900" y="300" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center8" x="0" y="600" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center9" x="300" y="600" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center10" x="600" y="600" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center11" x="900" y="600" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center12" x="0" y="900" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center13" x="300" y="900" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center14" x="600" y="900" type="traffic_light" radius="6.199999999999999"/>
+  <node id="center15" x="900" y="900" type="traffic_light" radius="6.199999999999999"/>
+  <node id="bot_col_short0" x="0" y="-300" type="priority"/>
+  <node id="bot_col_long0" x="0" y="-100" type="priority"/>
+  <node id="top_col_short0" x="0" y="1200" type="priority"/>
+  <node id="top_col_long0" x="0" y="1000" type="priority"/>
+  <node id="bot_col_short1" x="300" y="-300" type="priority"/>
+  <node id="bot_col_long1" x="300" y="-100" type="priority"/>
+  <node id="top_col_short1" x="300" y="1200" type="priority"/>
+  <node id="top_col_long1" x="300" y="1000" type="priority"/>
+  <node id="bot_col_short2" x="600" y="-300" type="priority"/>
+  <node id="bot_col_long2" x="600" y="-100" type="priority"/>
+  <node id="top_col_short2" x="600" y="1200" type="priority"/>
+  <node id="top_col_long2" x="600" y="1000" type="priority"/>
+  <node id="bot_col_short3" x="900" y="-300" type="priority"/>
+  <node id="bot_col_long3" x="900" y="-100" type="priority"/>
+  <node id="top_col_short3" x="900" y="1200" type="priority"/>
+  <node id="top_col_long3" x="900" y="1000" type="priority"/>
+  <node id="left_row_short0" x="-300" y="0" type="priority"/>
+  <node id="left_row_long0" x="-100" y="0" type="priority"/>
+  <node id="right_row_short0" x="1200" y="0" type="priority"/>
+  <node id="right_row_long0" x="1000" y="0" type="priority"/>
+  <node id="left_row_short1" x="-300" y="300" type="priority"/>
+  <node id="left_row_long1" x="-100" y="300" type="priority"/>
+  <node id="right_row_short1" x="1200" y="300" type="priority"/>
+  <node id="right_row_long1" x="1000" y="300" type="priority"/>
+  <node id="left_row_short2" x="-300" y="600" type="priority"/>
+  <node id="left_row_long2" x="-100" y="600" type="priority"/>
+  <node id="right_row_short2" x="1200" y="600" type="priority"/>
+  <node id="right_row_long2" x="1000" y="600" type="priority"/>
+  <node id="left_row_short3" x="-300" y="900" type="priority"/>
+  <node id="left_row_long3" x="-100" y="900" type="priority"/>
+  <node id="right_row_short3" x="1200" y="900" type="priority"/>
+  <node id="right_row_long3" x="1000" y="900" type="priority"/>
+</nodes>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+  <input>
+    <node-files value="traffic_light_grid_20200415-2253551586962435.4919314.nod.xml"/>
+    <edge-files value="traffic_light_grid_20200415-2253551586962435.4919314.edg.xml"/>
+    <type-files value="traffic_light_grid_20200415-2253551586962435.4919314.typ.xml"/>
+    <connection-files value="traffic_light_grid_20200415-2253551586962435.4919314.con.xml"/>
+  </input>
+  <output>
+    <output-file value="traffic_light_grid_20200415-2253551586962435.4919314.net.xml"/>
+  </output>
+  <processing>
+    <no-internal-links value="false"/>
+    <no-turnarounds value="true"/>
+  </processing>
+</configuration>

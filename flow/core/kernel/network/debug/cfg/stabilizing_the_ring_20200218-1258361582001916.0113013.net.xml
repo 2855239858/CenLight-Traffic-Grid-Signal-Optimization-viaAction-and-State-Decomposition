@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Feb 18 12:58:36 2020 by Eclipse SUMO netconvert Version v1_1_0+0000-2147d155b1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="/home/ryc/flow/flow/core/kernel/network/debug/net/stabilizing_the_ring_20200218-1258361582001916.0113013.nod.xml"/>
+        <edge-files value="/home/ryc/flow/flow/core/kernel/network/debug/net/stabilizing_the_ring_20200218-1258361582001916.0113013.edg.xml"/>
+        <type-files value="/home/ryc/flow/flow/core/kernel/network/debug/net/stabilizing_the_ring_20200218-1258361582001916.0113013.typ.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/ryc/flow/flow/core/kernel/network/debug/cfg/stabilizing_the_ring_20200218-1258361582001916.0113013.net.xml"/>
+    </output>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</configuration>
+-->
+
+<net version="1.1" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="39.15,39.15" convBoundary="0.00,0.00,78.30,78.30" origBoundary="-39.15,-39.15,39.15,39.15" projParameter="!"/>
+
+    <type id="edgeType" numLanes="1" speed="30.00"/>
+
+    <edge id=":bottom_0" function="internal">
+        <lane id=":bottom_0_0" index="0" speed="30.00" length="0.10" shape="39.12,-1.60 39.18,-1.60"/>
+    </edge>
+    <edge id=":left_0" function="internal">
+        <lane id=":left_0_0" index="0" speed="30.00" length="0.10" shape="-1.60,39.18 -1.60,39.12"/>
+    </edge>
+    <edge id=":right_0" function="internal">
+        <lane id=":right_0_0" index="0" speed="30.00" length="0.10" shape="79.90,39.12 79.90,39.18"/>
+    </edge>
+    <edge id=":top_0" function="internal">
+        <lane id=":top_0_0" index="0" speed="30.00" length="0.10" shape="39.18,79.90 39.12,79.90"/>
+    </edge>
+
+    <edge id="bottom" from="bottom" to="right" priority="-1" type="edgeType" length="61.50" shape="39.15,0.00 40.73,0.03 42.30,0.12 43.87,0.28 45.43,0.50 46.98,0.79 48.52,1.14 50.04,1.54 51.55,2.01 53.03,2.54 54.50,3.13 55.93,3.78 57.34,4.48 58.73,5.24 60.08,6.06 61.39,6.93 62.67,7.85 63.91,8.82 65.11,9.84 66.27,10.91 67.39,12.03 68.46,13.19 69.48,14.39 70.45,15.63 71.37,16.91 72.24,18.22 73.06,19.57 73.82,20.96 74.52,22.37 75.17,23.80 75.76,25.27 76.29,26.75 76.76,28.26 77.16,29.78 77.51,31.32 77.80,32.87 78.02,34.43 78.18,36.00 78.27,37.57 78.30,39.15">
+        <lane id="bottom_0" index="0" speed="30.00" length="61.50" shape="39.18,-1.60 40.79,-1.57 42.43,-1.47 44.06,-1.31 45.69,-1.08 47.31,-0.77 48.90,-0.41 50.48,0.00 52.06,0.49 53.60,1.05 55.13,1.66 56.62,2.34 58.08,3.06 59.53,3.86 60.94,4.71 62.30,5.62 63.63,6.57 64.92,7.58 66.17,8.64 67.38,9.76 68.55,10.92 69.66,12.13 70.72,13.38 71.73,14.67 72.69,16.00 73.59,17.36 74.45,18.77 75.24,20.22 75.97,21.69 76.64,23.17 77.26,24.70 77.81,26.24 78.30,27.82 78.72,29.40 79.08,31.00 79.38,32.61 79.61,34.24 79.78,35.88 79.87,37.51 79.90,39.12"/>
+    </edge>
+    <edge id="left" from="left" to="bottom" priority="-1" type="edgeType" length="61.50" shape="0.00,39.15 0.03,37.57 0.12,36.00 0.28,34.43 0.50,32.87 0.79,31.32 1.14,29.78 1.54,28.26 2.01,26.75 2.54,25.27 3.13,23.80 3.78,22.37 4.48,20.96 5.24,19.57 6.06,18.22 6.93,16.91 7.85,15.63 8.82,14.39 9.84,13.19 10.91,12.03 12.03,10.91 13.19,9.84 14.39,8.82 15.63,7.85 16.91,6.93 18.22,6.06 19.57,5.24 20.96,4.48 22.37,3.78 23.80,3.13 25.27,2.54 26.75,2.01 28.26,1.54 29.78,1.14 31.32,0.79 32.87,0.50 34.43,0.28 36.00,0.12 37.57,0.03 39.15,0.00">
+        <lane id="left_0" index="0" speed="30.00" length="61.50" shape="-1.60,39.12 -1.57,37.51 -1.47,35.88 -1.31,34.24 -1.08,32.61 -0.77,31.00 -0.41,29.40 0.00,27.82 0.49,26.24 1.05,24.70 1.66,23.17 2.34,21.69 3.06,20.22 3.86,18.77 4.71,17.36 5.62,16.00 6.57,14.67 7.58,13.38 8.64,12.13 9.76,10.92 10.92,9.76 12.13,8.64 13.38,7.58 14.67,6.57 16.00,5.62 17.36,4.71 18.77,3.86 20.22,3.06 21.69,2.34 23.17,1.66 24.70,1.05 26.24,0.49 27.82,0.00 29.40,-0.41 31.00,-0.77 32.61,-1.08 34.24,-1.31 35.88,-1.47 37.51,-1.57 39.12,-1.60"/>
+    </edge>
+    <edge id="right" from="right" to="top" priority="-1" type="edgeType" length="61.50" shape="78.30,39.15 78.27,40.73 78.18,42.30 78.02,43.87 77.80,45.43 77.51,46.98 77.16,48.52 76.76,50.04 76.29,51.55 75.76,53.03 75.17,54.50 74.52,55.93 73.82,57.34 73.06,58.73 72.24,60.08 71.37,61.39 70.45,62.67 69.48,63.91 68.46,65.11 67.39,66.27 66.27,67.39 65.11,68.46 63.91,69.48 62.67,70.45 61.39,71.37 60.08,72.24 58.73,73.06 57.34,73.82 55.93,74.52 54.50,75.17 53.03,75.76 51.55,76.29 50.04,76.76 48.52,77.16 46.98,77.51 45.43,77.80 43.87,78.02 42.30,78.18 40.73,78.27 39.15,78.30">
+        <lane id="right_0" index="0" speed="30.00" length="61.50" shape="79.90,39.18 79.87,40.79 79.78,42.43 79.61,44.06 79.38,45.69 79.08,47.31 78.72,48.90 78.30,50.48 77.81,52.06 77.26,53.60 76.64,55.13 75.97,56.62 75.24,58.08 74.45,59.53 73.59,60.94 72.69,62.30 71.73,63.63 70.72,64.92 69.66,66.17 68.55,67.38 67.38,68.55 66.17,69.66 64.92,70.72 63.63,71.73 62.30,72.69 60.94,73.59 59.53,74.45 58.08,75.24 56.62,75.97 55.13,76.64 53.60,77.26 52.06,77.81 50.48,78.30 48.90,78.72 47.31,79.08 45.69,79.38 44.06,79.61 42.43,79.78 40.79,79.87 39.18,79.90"/>
+    </edge>
+    <edge id="top" from="top" to="left" priority="-1" type="edgeType" length="61.50" shape="39.15,78.30 37.57,78.27 36.00,78.18 34.43,78.02 32.87,77.80 31.32,77.51 29.78,77.16 28.26,76.76 26.75,76.29 25.27,75.76 23.80,75.17 22.37,74.52 20.96,73.82 19.57,73.06 18.22,72.24 16.91,71.37 15.63,70.45 14.39,69.48 13.19,68.46 12.03,67.39 10.91,66.27 9.84,65.11 8.82,63.91 7.85,62.67 6.93,61.39 6.06,60.08 5.24,58.73 4.48,57.34 3.78,55.93 3.13,54.50 2.54,53.03 2.01,51.55 1.54,50.04 1.14,48.52 0.79,46.98 0.50,45.43 0.28,43.87 0.12,42.30 0.03,40.73 0.00,39.15">
+        <lane id="top_0" index="0" speed="30.00" length="61.50" shape="39.12,79.90 37.51,79.87 35.88,79.78 34.24,79.61 32.61,79.38 31.00,79.08 29.40,78.72 27.82,78.30 26.24,77.81 24.70,77.26 23.17,76.64 21.69,75.97 20.22,75.24 18.77,74.45 17.36,73.59 16.00,72.69 14.67,71.73 13.38,70.72 12.13,69.66 10.92,68.55 9.76,67.38 8.64,66.17 7.58,64.92 6.57,63.63 5.62,62.30 4.71,60.94 3.86,59.53 3.06,58.08 2.34,56.62 1.66,55.13 1.05,53.60 0.49,52.06 0.00,50.48 -0.41,48.90 -0.77,47.31 -1.08,45.69 -1.31,44.06 -1.47,42.43 -1.57,40.79 -1.60,39.18"/>
+    </edge>
+
+    <junction id="bottom" type="priority" x="39.15" y="0.00" incLanes="left_0" intLanes=":bottom_0_0" shape="39.24,0.00 39.30,-3.20 39.01,-3.20 39.07,0.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="left" type="priority" x="0.00" y="39.15" incLanes="top_0" intLanes=":left_0_0" shape="-3.20,39.30 0.00,39.24 0.00,39.07 -3.20,39.01">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="right" type="priority" x="78.30" y="39.15" incLanes="bottom_0" intLanes=":right_0_0" shape="81.50,39.01 78.30,39.07 78.30,39.24 81.50,39.30">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="top" type="priority" x="39.15" y="78.30" incLanes="right_0" intLanes=":top_0_0" shape="39.30,81.50 39.24,78.30 39.07,78.30 39.01,81.50">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+
+    <connection from="bottom" to="right" fromLane="0" toLane="0" via=":right_0_0" dir="s" state="M"/>
+    <connection from="left" to="bottom" fromLane="0" toLane="0" via=":bottom_0_0" dir="s" state="M"/>
+    <connection from="right" to="top" fromLane="0" toLane="0" via=":top_0_0" dir="s" state="M"/>
+    <connection from="top" to="left" fromLane="0" toLane="0" via=":left_0_0" dir="s" state="M"/>
+
+    <connection from=":bottom_0" to="bottom" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":left_0" to="left" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":right_0" to="right" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":top_0" to="top" fromLane="0" toLane="0" dir="s" state="M"/>
+
+</net>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+  <route id="routebot0_0_0" edges="bot0_0 bot0_1 bot0_2 bot0_3 bot0_4"/>
+  <route id="routetop0_4_0" edges="top0_4 top0_3 top0_2 top0_1 top0_0"/>
+  <route id="routebot1_0_0" edges="bot1_0 bot1_1 bot1_2 bot1_3 bot1_4"/>
+  <route id="routetop1_4_0" edges="top1_4 top1_3 top1_2 top1_1 top1_0"/>
+  <route id="routebot2_0_0" edges="bot2_0 bot2_1 bot2_2 bot2_3 bot2_4"/>
+  <route id="routetop2_4_0" edges="top2_4 top2_3 top2_2 top2_1 top2_0"/>
+  <route id="routebot3_0_0" edges="bot3_0 bot3_1 bot3_2 bot3_3 bot3_4"/>
+  <route id="routetop3_4_0" edges="top3_4 top3_3 top3_2 top3_1 top3_0"/>
+  <route id="routeleft4_0_0" edges="left4_0 left3_0 left2_0 left1_0 left0_0"/>
+  <route id="routeright0_0_0" edges="right0_0 right1_0 right2_0 right3_0 right4_0"/>
+  <route id="routeleft4_1_0" edges="left4_1 left3_1 left2_1 left1_1 left0_1"/>
+  <route id="routeright0_1_0" edges="right0_1 right1_1 right2_1 right3_1 right4_1"/>
+  <route id="routeleft4_2_0" edges="left4_2 left3_2 left2_2 left1_2 left0_2"/>
+  <route id="routeright0_2_0" edges="right0_2 right1_2 right2_2 right3_2 right4_2"/>
+  <route id="routeleft4_3_0" edges="left4_3 left3_3 left2_3 left1_3 left0_3"/>
+  <route id="routeright0_3_0" edges="right0_3 right1_3 right2_3 right3_3 right4_3"/>
+</routes>

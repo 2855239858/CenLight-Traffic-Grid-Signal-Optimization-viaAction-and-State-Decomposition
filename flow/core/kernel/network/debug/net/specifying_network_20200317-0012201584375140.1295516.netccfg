@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+  <input>
+    <node-files value="specifying_network_20200317-0012201584375140.1295516.nod.xml"/>
+    <edge-files value="specifying_network_20200317-0012201584375140.1295516.edg.xml"/>
+  </input>
+  <output>
+    <output-file value="specifying_network_20200317-0012201584375140.1295516.net.xml"/>
+  </output>
+  <processing>
+    <no-internal-links value="false"/>
+    <no-turnarounds value="true"/>
+  </processing>
+</configuration>
