@@ -193,7 +193,7 @@ def record_line(log_path, line):
 if __name__ == "__main__":
     #   print(env.scenario.get_edge_list())
     # Perpare agent.
-    from flow.core.rnn_correct_2 import *
+    from workspace.cenlight_agent import *
 ############################################################################
 ############################################################################
     Agent_NUM = N_ROWS * N_COLUMNS
@@ -209,8 +209,8 @@ if __name__ == "__main__":
     pre_train_critic = 100
     pre_train_actor = 2000
     num_state = 198
-    # rnn_agent = PPO3(s_dim=num_state*Agent_NUM,a_dim=Agent_NUM,name=NAME)
-    rnn_agent = [PPO3(s_dim=num_state, a_dim=1, name="subagent" + str(i) + NAME) for i in range(Agent_NUM)]
+    rnn_agent = PPO3(s_dim=num_state*Agent_NUM,a_dim=Agent_NUM,name=NAME)
+    # rnn_agent = [PPO3(s_dim=num_state, a_dim=1, name="subagent" + str(i) + NAME) for i in range(Agent_NUM)]
 ############################################################################
 ############################################################################
     # rnn_agent.restore_params(NAME,400)
