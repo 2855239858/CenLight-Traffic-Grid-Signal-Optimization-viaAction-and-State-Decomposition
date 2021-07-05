@@ -80,15 +80,15 @@ def paint_3img(f1,f2,f3,color,label):
     data = read_3image(f1,f2,f3)
     plot_3image(data,color,label)
 
-def plot_format(title,xLabel,yLabel):
+def plot_format(title,xLabel,yLabel, size = 16):
     plt.title(title, fontsize=24)
     plt.xlabel(xLabel,fontsize=16)
-    plt.ylabel(yLabel, fontsize=16)
+    plt.ylabel(yLabel, fontsize=size)
     plt.tick_params(axis='both', which="major", labelsize=16)
 
 if __name__ == "__main__":
     #获取数据
-    num = 300
+    num = 800
     gap = 1
 
     # data = read_image('progress.csv',num,gap)
@@ -110,15 +110,6 @@ if __name__ == "__main__":
     # data3 = read_3image('combine_action/6_3_1.csv','combine_action/6_3_2.csv','combine_action/6_3_3.csv',num)
     # data4 = read_3image('combine_action/6_6_1.csv','combine_action/6_6_2.csv','combine_action/6_6_3.csv',num)
 
-    # data1 = read_3image('Reward_function/no_value_reward_1.csv','Reward_function/no_value_reward_2.csv',
-    #                                             'Reward_function/no_value_reward_3.csv',220)
-    # data2 = read_3image('Reward_function/value_reward_1.csv','Reward_function/value_reward_2.csv',
-    #                                             'Reward_function/value_reward_3.csv',220)
-    # data3 = read_3image('Reward_function/no_value_critic_curve_1.csv','Reward_function/no_value_critic_curve_2.csv',
-    #                                             'Reward_function/no_value_critic_curve_3.csv',150)
-    # data4 = read_3image('Reward_function/value_critic_curve_1.csv','Reward_function/value_critic_curve_2.csv',
-    #                                             'Reward_function/value_critic_curve_3.csv',150)
-
     # data1 = read_image('realign_data/normal.csv',175,gap)
     # data2 = read_image('realign_data/realign1.csv',175,gap)
     # data3 = read_image('realign_data/realign2.csv',175,gap)
@@ -129,7 +120,14 @@ if __name__ == "__main__":
     # data3 = read_image('compare_full/2x3.csv',1000,4)
     # data4 = read_image('compare_full/full_2x3.csv',1000,4)
 
-
+    data1 = read_3image('Reward_function/no_value_reward_1.csv','Reward_function/no_value_reward_2.csv',
+                                                'Reward_function/no_value_reward_3.csv',220)
+    data2 = read_3image('Reward_function/value_reward_1.csv','Reward_function/value_reward_2.csv',
+                                                'Reward_function/value_reward_3.csv',220)
+    data3 = read_3image('Reward_function/no_value_critic_curve_1.csv','Reward_function/no_value_critic_curve_2.csv',
+                                                'Reward_function/no_value_critic_curve_3.csv',150)
+    data4 = read_3image('Reward_function/value_critic_curve_1.csv','Reward_function/value_critic_curve_2.csv',
+                                                'Reward_function/value_critic_curve_3.csv',150)
 
 ##Compared with different DRL methods 1x3 600 flowrate
     # data1 = read_3image('compared_with_other_RL/1x3_600_1.csv','compared_with_other_RL/1x3_600_2.csv',
@@ -143,14 +141,14 @@ if __name__ == "__main__":
 
 
 ##Compared with different DRL methods 3x3 600 flowrate
-    data1 = read_3image('compared_with_other_RL/3x3_600_1.csv','compared_with_other_RL/3x3_600_2.csv',
-    'compared_with_other_RL/3x3_600_3.csv',1200)
-    data2 = read_3image('compared_with_other_RL/3x3_single_1.csv','compared_with_other_RL/3x3_single_2.csv',
-    'compared_with_other_RL/3x3_single_3.csv',400)
-    data3 = read_3image('compared_with_other_RL/3x3_multi_1.csv','compared_with_other_RL/3x3_multi_2.csv',
-    'compared_with_other_RL/3x3_multi_3.csv',400)
-    data4 = read_image('compared_with_other_RL/3x3_static.csv',1200)
-    data5 = read_image('compared_with_other_RL/3x3_actuated.csv',1200)
+    # data1 = read_3image('compared_with_other_RL/3x3_600_1.csv','compared_with_other_RL/3x3_600_2.csv',
+    # 'compared_with_other_RL/3x3_600_3.csv',1200)
+    # data2 = read_3image('compared_with_other_RL/3x3_single_1.csv','compared_with_other_RL/3x3_single_2.csv',
+    # 'compared_with_other_RL/3x3_single_3.csv',400)
+    # data3 = read_3image('compared_with_other_RL/3x3_multi_1.csv','compared_with_other_RL/3x3_multi_2.csv',
+    # 'compared_with_other_RL/3x3_multi_3.csv',400)
+    # data4 = read_image('compared_with_other_RL/3x3_static.csv',1200)
+    # data5 = read_image('compared_with_other_RL/3x3_actuated.csv',1200)
 
 
 
@@ -159,55 +157,63 @@ if __name__ == "__main__":
     #绘制图形
     fig = plt.figure(dpi=128, figsize=(10,6))
 
+##compared with different DRL methods
+    # plot_3image(data1,'blue','ours',1)
+    # plot_3image(data2,'red','Single-PPO',3,True)
+    # plot_3image(data3,'black','Multi-PPO',3,True)
+    # plot_image(data4,'green','Fixed-time')
+    # plot_image(data5,'brown','Actuated')
+
+
+##添加网格
+    plt.grid() 
+##400 inflow rate
     # plot_3image(data1,'blue','2x2 grid')
     # plot_3image(data2,'red','1x3 grid')
     # plot_3image(data3,'black','2x3 grid')
     # plot_3image(data4,'green','3x3 grid')
+    # plot_format('','Episodes','Rewards')
+    # plt.legend(['2x2 grid','1x3 grid','2x3 grid','3x3 grid'],loc = 4,fontsize = 20)
 
+##combine actions
     # plot_3image(data1,'blue','one signal at a time')
     # plot_3image(data2,'red','two signals at a time')
     # plot_3image(data3,'black','three signals at a time')
     # plot_3image(data4,'green','six signals at a time')
+    # plot_format('','Episodes','Rewards')
+    # plt.legend(['one signal at a time','two signals at a time','three signals at a time','six signals at a time'],loc = 4,fontsize = 20)
 
-    # plot_3image(data1,'blue','reward-to-go')
-    # plot_3image(data2,'red','$G_t^k$-ours')
-    # plot_3image(data3,'blue','normal reward function')
-    # plot_3image(data4,'red','our reward function')
-    
+##different action sequence 
     # plot_image(data1,'blue','sequence 1')
     # plot_image(data2,'red','sequence 2')
     # plot_image(data3,'black','sequence 3')
     # plot_image(data4,'green','sequence 4')
+    # plot_format('','Episodes','Rewards')
+    # plt.legend(['sequence 1','sequence 2','sequence 3','sequence 4'],loc = 4,fontsize = 20)
+    
 
+##compare with FCN
     # plot_image(data1,'blue','LTSM-agent')
     # plot_image(data2,'red','FCN-agent')
     # plot_image(data3,'blue','LTSM-agent')
     # plot_image(data4,'red','FCN-agent')
+    # plot_format('','Episodes','Rewards')
+    # plt.legend(['LSTM-agent','FCN-agent'],loc = 4,fontsize = 20)
+
+##reward-to-go
+    # plot_3image(data1,'blue','reward-to-go')
+    # plot_3image(data2,'red','$G_t^k$-ours')
+    # plot_format('','Episodes','Rewards')
+    # plt.legend(['reward-to-go','our $G_t^k$'],loc = 4,fontsize = 20)
+
+    plot_3image(data3,'blue','normal reward function')
+    plot_3image(data4,'red','our reward function')
+    plot_format('','Update steps','$\mathcal{L}_{critic}$', size=20)
+    plt.legend(['reward-to-go','our $G_t^k$'],loc = 1,fontsize = 20)
 
 ##compared with different DRL methods
-    plot_3image(data1,'blue','ours',1)
-    plot_3image(data2,'red','Single-PPO',3,True)
-    plot_3image(data3,'black','Multi-PPO',3,True)
-    plot_image(data4,'green','Fixed-time')
-    plot_image(data5,'brown','Actuated')
-
-
-
-    # plot_format('2x3 grid under 600 flowrate','Update steps','$\mathcal{L}_{critic}$ curves')
     # plot_format('1x3 grid under 600 flowrate','Episodes','Rewards')
-    # plot_format('600 flowrate','Episodes','Rewards')
-
-
-    # plt.legend(['2x2 grid','1x3 grid','2x3 grid','3x3 grid'],loc = 4,fontsize = 20)
-    # plt.legend(['sequence 1','sequence 2','sequence 3','sequence 4'],loc = 4,fontsize = 20)
-    # plt.legend(['one signal at a time','two signals at a time','three signals at a time','six signals at a time'],loc = 4,fontsize = 20)
-    # plt.legend(['reward-to-go','our $G_t^k$'],loc = 1,fontsize = 20)
-    # plt.legend(['ours','FCN-agent'],loc = 4,fontsize = 20)
-
-
-##compared with different DRL methods
-    plot_format('1x3 grid under 600 flowrate','Episodes','Rewards')
-    plt.legend(['ours','Single-PPO','Multi-PPO','Fixed-time','Actuated'],loc = 4,fontsize = 15)
+    # plt.legend(['ours','Single-PPO','Multi-PPO','Fixed-time','Actuated'],loc = 4,fontsize = 15)
 
 
     plt.show()
